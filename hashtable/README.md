@@ -36,7 +36,7 @@ From the project directory containing `WordFrequency.c` and `Dictionary.c`:
 Individual checks can be run directly:
 
 ```bash
-../cse-101-public-tests/hashtable/hashtable.sh
+../low-latency-data-structures-tests/hashtable/hashtable.sh
 ../cse-101-public-tests/hashtable/model-hashtable-test.sh
 ../cse-101-public-tests/hashtable/hashtable-build.sh
 ```

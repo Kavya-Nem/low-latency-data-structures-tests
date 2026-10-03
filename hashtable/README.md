@@ -30,7 +30,7 @@ The model dictionary client covers dictionary operations including insertion/rem
 From the project directory containing `WordFrequency.c` and `Dictionary.c`:
 
 ```bash
-../cse-101-public-tests/hashtable/main.sh
+../low-latency-data-structures-tests/hashtable/main.sh
 ```
 
 Individual checks can be run directly:

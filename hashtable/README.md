@@ -38,7 +38,7 @@ Individual checks can be run directly:
 ```bash
 ../low-latency-data-structures-tests/hashtable/hashtable.sh
 ../low-latency-data-structures-tests/hashtable/model-hashtable-test.sh
-../cse-101-public-tests/hashtable/hashtable-build.sh
+../low-latency-data-structures-tests/hashtable/hashtable-build.sh
 ```
 
 ## Expected project files

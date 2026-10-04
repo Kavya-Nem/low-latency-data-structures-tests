@@ -71,7 +71,7 @@ Individual checks:
 ```bash
 ../low-latency-data-structures-tests/redblacktree/words.sh
 ../low-latency-data-structures-tests/redblacktree/wordfrequency.sh
-../cse-101-public-tests/redblacktree/model-redblacktree-test.sh
+../low-latency-data-structures-tests/redblacktree/model-redblacktree-test.sh
 ../cse-101-public-tests/redblacktree/redblacktree-build.sh
 ```
 

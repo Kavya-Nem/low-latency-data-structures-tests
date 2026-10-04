@@ -63,7 +63,7 @@ Runtime and Valgrind checks are also applied.
 From the project directory containing `Sparse.c`, `Matrix.c`, and `List.c`:
 
 ```bash
-../cse-101-public-tests/sparse/sparse.sh
+../low-latency-data-structures-tests/sparse/sparse.sh
 ```
 
 Individual checks:

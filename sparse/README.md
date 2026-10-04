@@ -69,7 +69,7 @@ From the project directory containing `Sparse.c`, `Matrix.c`, and `List.c`:
 Individual checks:
 
 ```bash
-../cse-101-public-tests/sparse/sparse-matrix.sh
+../low-latency-data-structures-tests/sparse/sparse-matrix.sh
 ../cse-101-public-tests/sparse/model-list-test.sh
 ../cse-101-public-tests/sparse/model-matrix-test.sh
 ../cse-101-public-tests/sparse/sparse-build.sh

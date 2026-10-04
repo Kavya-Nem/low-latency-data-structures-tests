@@ -72,7 +72,7 @@ Individual checks:
 ../low-latency-data-structures-tests/redblacktree/words.sh
 ../low-latency-data-structures-tests/redblacktree/wordfrequency.sh
 ../low-latency-data-structures-tests/redblacktree/model-redblacktree-test.sh
-../cse-101-public-tests/redblacktree/redblacktree-build.sh
+../low-latency-data-structures-tests/redblacktree/redblacktree-build.sh
 ```
 
 `main.sh` accepts an optional runtime multiplier and passes it to the checks that support it:

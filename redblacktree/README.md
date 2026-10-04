@@ -78,7 +78,7 @@ Individual checks:
 `main.sh` accepts an optional runtime multiplier and passes it to the checks that support it:
 
 ```bash
-../cse-101-public-tests/redblacktree/main.sh 2
+../low-latency-data-structures-tests/redblacktree/main.sh 2
 ```
 
 ## Additional word-frequency data

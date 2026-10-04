@@ -70,7 +70,7 @@ Individual checks:
 
 ```bash
 ../low-latency-data-structures-tests/sparse/sparse-matrix.sh
-../cse-101-public-tests/sparse/model-list-test.sh
+../low-latency-data-structures-tests/sparse/model-list-test.sh
 ../cse-101-public-tests/sparse/model-matrix-test.sh
 ../cse-101-public-tests/sparse/sparse-build.sh
 ```

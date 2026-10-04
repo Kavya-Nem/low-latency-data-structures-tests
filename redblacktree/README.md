@@ -63,7 +63,7 @@ The `WordFrequency` test performs the same compilation, output, runtime, and Val
 From the project directory containing `Words.cpp`, `WordFrequency.cpp`, `Dictionary.cpp`, and the corresponding `Makefile`:
 
 ```bash
-../cse-101-public-tests/redblacktree/main.sh
+../low-latency-data-structures-tests/redblacktree/main.sh
 ```
 
 Individual checks:

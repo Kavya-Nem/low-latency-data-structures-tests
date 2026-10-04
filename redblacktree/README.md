@@ -70,7 +70,7 @@ Individual checks:
 
 ```bash
 ../low-latency-data-structures-tests/redblacktree/words.sh
-../cse-101-public-tests/redblacktree/wordfrequency.sh
+../low-latency-data-structures-tests/redblacktree/wordfrequency.sh
 ../cse-101-public-tests/redblacktree/model-redblacktree-test.sh
 ../cse-101-public-tests/redblacktree/redblacktree-build.sh
 ```

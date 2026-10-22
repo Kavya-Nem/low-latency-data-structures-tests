@@ -6,10 +6,10 @@ RUNTIME=$((${1:-1}*20))
 NUMTESTS=5
 
 wordstestspassed=0
-if g++ -std=c++17 -Wall -c -g Words.cpp Dictionary.cpp; then
+if g++ -std=c++17 -Wall -c -g Words.cpp BST.cpp; then
   ((wordstestspassed++))
 fi
-if g++ -std=c++17 -Wall -o Words Words.o Dictionary.o; then
+if g++ -std=c++17 -Wall -o Words Words.o BST.o; then
   ((wordstestspassed++))
 fi
 

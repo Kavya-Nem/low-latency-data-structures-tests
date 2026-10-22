@@ -78,9 +78,9 @@ string testName(int test) {
     return "Contains_value";
   return "";
 }
-uint8_t runTest(Dictionary *pA, Dictionary *pB, int test) {
-  Dictionary A = *pA;
-  Dictionary B = *pB;
+uint8_t runTest(BST *pA, BST *pB, int test) {
+  BST A = *pA;
+  BST B = *pB;
   switch (test) {
   case Empty_size: {
     if (A.size() != 0)
@@ -391,7 +391,7 @@ int main(int argc, char **argv) {
   atexit(exit_attempt_handler);
   signal(SIGSEGV, segfault_handler);
   for (uint8_t i = FIRST_TEST; i < NUM_TESTS; i++) {
-    Dictionary A, B;
+    BST A, B;
     uint8_t fail_type;
     try {
       testStatus = runTest(&A, &B, i);

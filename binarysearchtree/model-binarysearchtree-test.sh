@@ -1,13 +1,13 @@
 #!/bin/bash
 RELATIVE_PATH="../low-latency-data-structures-tests/binarysearchtree"
-rm -f Dictionary.o
+rm -f BST.o
 MAXTIME=$((${1:-1}*5))
 
 testspassed=0
-if g++ -std=c++17 -Wall -c -g "$RELATIVE_PATH/"ModelDictionaryTest.cpp Dictionary.cpp; then
+if g++ -std=c++17 -Wall -c -g "$RELATIVE_PATH/"ModelDictionaryTest.cpp BST.cpp; then
   ((testspassed++))
 fi
-if g++ -std=c++17 -Wall -o ModelDictionaryTest ModelDictionaryTest.o Dictionary.o; then
+if g++ -std=c++17 -Wall -o ModelDictionaryTest ModelDictionaryTest.o BST.o; then
   ((testspassed++))
 fi
 timeout $MAXTIME /usr/bin/time -o time.txt -f "%U" ./ModelDictionaryTest -v > DictionaryTest-out.txt 2> /dev/null
